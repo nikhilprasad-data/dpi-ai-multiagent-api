@@ -1,1 +1,1 @@
-from .chat_schema import ChatRequest, ChatResponse
+from .research_schema import TopicRequest, TopicResponse
