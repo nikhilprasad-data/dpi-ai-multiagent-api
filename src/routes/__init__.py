@@ -1,1 +1,1 @@
-from .chat_routes import chat_router
+from .research_route import research_router
