@@ -5,8 +5,23 @@ load_dotenv()
 
 import os
 
-# for chatbot
+class Config:
+     
+     """Project Configuration and Environment Variables"""
 
-GROQ_API_KEY=os.environ.get("GROQ_API_KEY","")    
+    # for search llm
+     GROQ_API_KEY=os.environ.get("GROQ_API_KEY","")    
 
-CHAT_LLM=os.environ.get("CHAT_LLM","llama-3.3-70b-versatile")
+     SEARCH_LLM=os.environ.get("SEARCH_LLM","llama-3.3-70b-versatile")
+
+
+     # for reader llm 
+
+     GOOGLE_API_KEY=os.environ.get("GOOGLE_API_KEY","")
+
+     READER_LLM=os.environ.get("READER_LLM","gemini-2.5-flash")
+
+     # for Tavily
+
+     TAVILY_API_KEY=os.environ.get("TAVILY_API_KEY","")
+ 

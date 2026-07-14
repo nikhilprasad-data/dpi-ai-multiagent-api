@@ -1,1 +1,1 @@
-from .settings import GROQ_API_KEY, CHAT_LLM
+from .settings import Config
